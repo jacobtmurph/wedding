@@ -1,0 +1,11 @@
+####################### Spotlight #########################
+style: "style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "rsvp"
+title : "Be there, or be square."
+content: |
+  We'd love to know if you'll be attending! So please fill out the form below and we'll see you there on the <strong>big</strong> day.
+  <br/><sub>P.S. The password should be on your invitation!</sub>
+button: 
+  label: "Learn More"
+  link: "#"
+image: "images/rsvp.jpg"

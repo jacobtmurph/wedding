@@ -1,0 +1,11 @@
+####################### Spotlight #########################
+style: "style4 orient-right content-align-right image-position-center onscroll-image-fade-in"
+id: "when"
+title : "Save the Date"
+content: |
+  <strong>June 8<sup>th</sup>, 2024.</strong> 
+  <br/> We would love to see you there! Speaking of there...
+button: 
+  label: "Where is it?"
+  link: "#where"
+image: "images/when.jpg"
