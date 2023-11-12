@@ -1,10 +1,10 @@
 ####################### Spotlight #########################
-style: "style3 orient-right content-align-left image-position-center onscroll-image-fade-in"
+style: "style3 orient-left content-align-left image-position-center onscroll-image-fade-in"
 id: "where"
 title : "Location, Location, Location..."
 content: |
-  The wedding mass will be held at St. Gregory the Great Catholic Church in Cheltenham, England, at [time]. <br />
-  And the reception will be in [place], from [time] onwards. 
+  The wedding mass will be held at St. Gregory the Great Catholic Church in Cheltenham, England, at 2:30p.m. <br />
+  And the reception will announced in due course.
 button: 
   label: "Can I RSVP?"
   link: "#rsvp"

@@ -1,10 +1,7 @@
 ####################### Spotlight #########################
 style: "style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "rsvp"
-title : "Be there, or be square."
+title : "Be there or be square."
 content: |
   We'd love to know if you'll be attending! So please get in touch with the email address on your invite and we'll see you there on the <strong>big</strong> day.
-button: 
-  label: "Learn More"
-  link: "#"
 image: "images/rsvp.jpg"
