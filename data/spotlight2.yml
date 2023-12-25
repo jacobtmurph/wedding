@@ -4,7 +4,9 @@ id: "where"
 title : "Location, Location, Location..."
 content: |
   The wedding mass will be held at St. Gregory the Great Catholic Church in Cheltenham, England, at 2:30p.m. <br />
-  The reception venue and time will announced in due course.
+  The reception will be held at Bredon Hall.
+  <br />
+  <b>Note: Bredon Hall does not allow pets other than Guide Dogs to be present on the premises</b>
 button: 
   label: "Can I RSVP?"
   link: "#rsvp"
