@@ -7,7 +7,7 @@
             {{range resources.Match "images/gallery/landscape/*"}}
                 <article>
                     <a href="{{ .RelPermalink }}" class="image">
-                        <img src="{{ .RelPermalink }}" alt="" />
+                        <img loading="lazy" src="{{ .RelPermalink }}" alt="" />
                     </a>
                 </article>
             {{end}}
