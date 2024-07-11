@@ -1,12 +1,12 @@
 ####################### Banner #########################
-style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Big News!"
+style: "style1 orient-left content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "08/06/2024"
 subtitle: |
-  <strong>Jacob Murphy &amp; Margaret Andrews</strong> are getting <em>married</em>.
+  <strong></strong>Jacob Murphy &amp; Margaret Andrews got <em>married</em>
 content : |
-  They seem pretty excited, don't you think? We're sure you are too, so here's the answers we know you'll be looking for.
+  They seem pretty excited, don't you think? Thank you so much to everyone who joined to make the day so special, and please enjoy revisiting it with the photos below.
 button:
-  label : "When is it?!"
-  link : "/#when"
+  label : "Photos"
+  link : "/#gallery"
 image : "images/who.jpg"
 

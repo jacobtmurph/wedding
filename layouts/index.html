@@ -1,33 +1,13 @@
 {{ define "main" }}
 
 	{{ partial "banner" site.Data.banner }}
-	{{ partial "spotlight" site.Data.spotlight1 }}
-	{{ partial "spotlight" site.Data.spotlight2 }}
-	{{ partial "spotlight" site.Data.spotlight3 }}
-	<!-- {{ partial "gallery" site.Data.gallery }} -->
+	<!-- {{ partial "spotlight" site.Data.spotlight1 }} -->
+	<!-- {{ partial "spotlight" site.Data.spotlight2 }} -->
+	<!-- {{ partial "spotlight" site.Data.spotlight3 }} -->
+	{{ partial "gallery"}}
 	<!-- {{ partial "items" site.Data.items }} -->
 	<!-- {{ partial "elements" . }} -->
 	<!-- {{ partial "elements_reference" . }} -->
-  <section class="wrapper style1 align-center">
-    <form class="inner" name ="contact" method="POST" netlify>
-      <div class="fields">
-        <div class="field half">
-          <label for="name" >Name(s)</label>
-          <input type="text" name="name" id="name" placeholder="John Smith" required />
-        </div>
-        <div class="field half">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="mail@example.com" required />
-        </div>
-        <div class="field">
-          <textarea name="body" placeholder="Dietary Rquirements, Questions, or Congratulations...."></textarea>
-        </div>
-        <div class="field">
-          <input type="submit" value="RSVP">
-        </div>
-    </form>
-  </section>
- 
   {{ partial "footer" . }}
 
 {{ end }}

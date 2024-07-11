@@ -1,0 +1,25 @@
+<!-- Gallery -->
+<section class="wrapper style1 align-center" id="gallery">
+    <div class="inner"> 
+        <h2>Gallery</h2>
+        <!-- Gallery -->
+        <div class="gallery style1 large lightbox onscroll-fade-in">
+            {{range resources.Match "images/gallery/landscape/*"}}
+                <article>
+                    <a href="{{ .RelPermalink }}" class="image">
+                        <img loading="lazy" src="{{ .RelPermalink }}" alt="" />
+                    </a>
+                </article>
+            {{end}}
+        </div>
+        <div class="gallery style1 medium lightbox onscroll-fade-in">
+            {{range resources.Match "images/gallery/portrait/*"}}
+                <article>
+                    <a href="{{ .RelPermalink }}" class="image">
+                        <img src="{{ .RelPermalink }}" alt="" />
+                    </a>
+                </article>
+            {{end}}
+        </div>
+    </div>
+</section>
