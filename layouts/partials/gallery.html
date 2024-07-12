@@ -7,7 +7,9 @@
             {{range resources.Match "images/gallery/landscape/*"}}
                 <article>
                     <a href="{{ .RelPermalink }}" class="image">
-                        <img loading="lazy" src="{{ .RelPermalink }}" alt="" />
+                        {{ with .Resize "300x webp q75" }}
+                            <img loading="lazy" src="{{ .RelPermalink }}" alt="" />
+                        {{ end }}    
                     </a>
                 </article>
             {{end}}
@@ -16,7 +18,9 @@
             {{range resources.Match "images/gallery/portrait/*"}}
                 <article>
                     <a href="{{ .RelPermalink }}" class="image">
-                        <img src="{{ .RelPermalink }}" alt="" />
+                        {{ with .Resize "300x webp q75" }}
+                            <img loading="lazy" src="{{ .RelPermalink }}" alt="" />
+                        {{ end }}    
                     </a>
                 </article>
             {{end}}
